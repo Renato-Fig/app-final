@@ -10,6 +10,8 @@ const address = "localhost";
 
 app.use('/',routes);
 
+function readText();
+
 const server = app.listen(port,address,()=>{
     let host = server.address().address;
     let port = server.address().port;
